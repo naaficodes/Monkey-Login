@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+/*
+AUTHOR		:	ABDUL WAHID NAAFI
+INSTAGRAM	:	@IAM_NAAFI
+*/
+*
+{
+	margin: 0;
+	padding: 0;
+}
+body,html
+{
+	background-color: #88BDBC;
+}
+#container
+{
+	width: 350px;
+	height: 500px;
+	position: absolute;
+	background-color: white;
+	top:50%;
+	left: 50%;
+	overflow: hidden;
+	transform: translate(-50%,-50%);
+	box-shadow: 0 10px 25px rgba(0, 0, 0, .2);
+	
+}
+.animcon
+{
+	overflow: hidden;
+	position: absolute;
+	top:20px;
+	height: 170px;
+	width: 170px;
+	left:50%;
+	transform: translate(-50%);
+	background-color: transparent;
+	border-radius: 50%;
+	background-image: url(monkey.gif);
+	background-size: 90% 87%;
+	background-repeat: no-repeat;
+	background-position: center;
+	box-shadow: 0 10px 25px rgba(0, 0, 0, .2);
+}
+.animcon img
+{
+	position: absolute;
+	top:110%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	height: 170px;
+	width: 170px;
+	transition-timing-function: "ease";
+	transition: "5s";
+}
+.formcon
+{
+	position: absolute;
+	width: 400px;
+	height: 330px;
+	top:200px;
+	
+}
+input
+{
+	position: absolute;
+	height: 40px;
+	width: 80%;
+	left: 44%;
+	margin-top:25px;
+	transform: translate(-50.5%);
+	background-color: #254E58;
+	border:none;
+	color: white;
+	font-size: 100%;
+	box-shadow: 0 10px 25px rgba(0, 0, 0, .2);
+}
+input::placeholder
+{
+	color:white;
+	font-size: 100%;
+	font-weight: lighter;
+	text-indent: 5px;
+}
+.sbutton
+{
+	position: absolute;
+	height: 40px;
+	width: 80%;
+	left: 44%;
+	margin-top:89px;
+	transform: translate(-50.5%);
+	background-color: #1b8c1b66;
+	transition: "2s";
+	border: none;
+	color: white;
+	font-weight: bolder;
+	box-shadow: 0 10px 25px rgba(0, 0, 0, .2);
+}
+.sbutton:hover
+{
+	color: #5a5449;
+}
+
+.tb:hover .animcon
+{
+	background-image: url(faceclosed.png);
+}
+.foot
+{
+	color: #5a5449;
+	font-size: 110%;
+	width:100%;
+	text-align: center;
+	position: absolute;
+	top: 93%;
+	font-weight: lighter;
+	font-family: "Raleway";
+}
