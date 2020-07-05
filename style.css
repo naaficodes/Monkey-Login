@@ -57,7 +57,7 @@ body
 
 .formcon
 {
-	margin-top: 35px;
+	margin-top: 38px;
 }
 input
 {
@@ -66,7 +66,7 @@ input
 	/*background-color: #254E58;*/
 	border-radius: 20px;
 	border:none;
-	color: #1b8c1b66;
+	color: #5a5449;
 	text-indent: 15px;
 	font-size: 100%;
 	box-shadow: 0 10px 25px rgba(0, 0, 0, .2);
@@ -74,7 +74,7 @@ input
 }
 input::placeholder
 {
-	color:#1b8c1b66;
+	color:#5a5449;
 	font-size: 100%;
 	font-weight: lighter;
 	text-indent: 15px;
